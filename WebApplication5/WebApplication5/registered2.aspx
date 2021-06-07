@@ -41,6 +41,7 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#services">購物籃</a></li>
