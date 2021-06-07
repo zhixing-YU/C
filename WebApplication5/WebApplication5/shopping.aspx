@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="registered.aspx.cs" Inherits="WebApplication5.registered" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="shopping.aspx.cs" Inherits="WebApplication5.registered2" %>
 
 <!DOCTYPE html>
 
 <html lang="zh-Hant-TW" class="no-js">
 <head runat="server">
         <meta charset="utf-8"/>
-        <title>登入頁面</title>
+        <title>註冊頁面</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="FlameOnePage freebie theme for web startups by FairTech SEO." name="description"/>
@@ -68,19 +68,6 @@
                 <div class="item active">
                     <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
                     <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                               <form id="form1" runat="server">
-                                   <font color="#fff">
-                                    <div>請登入帳號</div>
-                                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>帳號<br />
-                                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>密碼<br /> 
-                                    <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">確認</a>
-                                    </font>
-                                </form>
-                            </div>
-                            <a href="registered2" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">註冊帳號</a>
-                        </div>
                     </div>
                 </div>
         </div>
