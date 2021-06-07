@@ -6,7 +6,7 @@
    
     <head>
         <meta charset="utf-8"/>
-        <title>Flame購物平台</title>
+        <title>PC Shop購物平台</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="FlameOnePage freebie theme for web startups by FairTech SEO." name="description"/>
@@ -83,7 +83,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">歡迎來到Flame購物平台</h1>
+                                <h1 class="carousel-title">歡迎來到PC Shop購物平台</h1>
                                 <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
@@ -95,7 +95,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h2 class="carousel-title">歡迎來到Flame購物平台</h2>
+                                <h2 class="carousel-title">歡迎來到PC Shop購物平台</h2>
                                 <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
