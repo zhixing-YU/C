@@ -32,8 +32,8 @@
 
                           <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="FlameOnePage Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="FlameOnePage Dark Logo">
+                                <img class="logo-img logo-img-main" src="img/logo_1.png" alt="FlameOnePage Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark_1.png" alt="FlameOnePage Dark Logo">
                             </a>
                         </div>
                     </div>
