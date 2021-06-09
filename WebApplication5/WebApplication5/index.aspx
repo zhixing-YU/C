@@ -6,7 +6,7 @@
    
     <head>
         <meta charset="utf-8"/>
-        <title>Flame購物平台</title>
+        <title>PC Shop購物平台</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="FlameOnePage freebie theme for web startups by FairTech SEO." name="description"/>
@@ -35,8 +35,8 @@
 
                           <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="FlameOnePage Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="FlameOnePage Dark Logo">
+                                <img class="logo-img logo-img-main" src="img/logo_1.png" alt="FlameOnePage Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark_1.png" alt="FlameOnePage Dark Logo">
                             </a>
                         </div>
                     </div>
@@ -53,6 +53,7 @@
 					
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
@@ -83,7 +84,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">歡迎來到Flame購物平台</h1>
+                                <h1 class="carousel-title">歡迎來到PC Shop購物平台</h1>
                                 <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
@@ -95,7 +96,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h2 class="carousel-title">歡迎來到Flame購物平台</h2>
+                                <h2 class="carousel-title">歡迎來到PC Shop購物平台</h2>
                                 <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
@@ -761,10 +762,10 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="flameonepage Logo">
+                        <img class="footer-logo" src="img/logo-dark_1.png" alt="flameonepage Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="fweight-700" href="#">FlameOnePage</a> Theme Powered by: <a class="fweight-700" href="http://ft-seo.ch/">FairTech Studio</a></p>
+                        <p class="margin-b-0"><a class="fweight-700" href="#">PC Shop</a> Theme Powered by: <a class="fweight-700" href="http://ft-seo.ch/">FairTech Studio</a></p>
                     </div>
                 </div>
                 <!--// end row -->

@@ -32,8 +32,8 @@
 
                           <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="FlameOnePage Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="FlameOnePage Dark Logo">
+                                <img class="logo-img logo-img-main" src="img/logo_1.png" alt="FlameOnePage Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark_1.png" alt="FlameOnePage Dark Logo">
                             </a>
                         </div>
                     </div>
@@ -41,6 +41,7 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#services">購物籃</a></li>

@@ -32,8 +32,8 @@
 
                           <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="FlameOnePage Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="FlameOnePage Dark Logo">
+                                <img class="logo-img logo-img-main" src="img/logo_1.png" alt="FlameOnePage Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark_1.png" alt="FlameOnePage Dark Logo">
                             </a>
                         </div>
                     </div>
@@ -41,6 +41,7 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
@@ -70,13 +71,14 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                               <form id="form1" runat="server">
-                                   <font color="#fff">
-                                    <div>請登入帳號</div>
-                                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>帳號<br />
-                                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>密碼<br /> 
-                                    <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">確認</a>
-                                    </font>
+                               <form id="form1" runat="server">  
+                                    <font color="#fff"><div>請登入帳號</div></font>
+                                    <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox><font color="#fff">帳號</font><br />
+                                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><font color="#fff">密碼</font><br /> 
+                                    <!--<a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">確認</a>--->
+                                   <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" Text="確認" />
+                                    <br />
+                                    <font color="#fff"><asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Italic="False" Font-Size="X-Large"></asp:Label></font>
                                 </form>
                             </div>
                             <a href="registered2" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">註冊帳號</a>
