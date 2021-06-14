@@ -28,7 +28,7 @@ namespace WebApplication5
                 HttpCookie cookie = new HttpCookie("user");
                 cookie.Value = TextBox1.Text;
                 HttpContext.Current.Response.Cookies.Add(cookie);
-                Response.Redirect("index.aspx");
+                Response.Redirect("Default.aspx");
             }
             else {
                 Label2.Text = "帳號或密碼錯誤!!";
