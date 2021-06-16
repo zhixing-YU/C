@@ -169,6 +169,7 @@
     <Content Include="sass\_variables.scss" />
     <Content Include="registered.aspx" />
     <None Include="Properties\PublishProfiles\WebApplication520210611162750 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\WebApplication520210614155014 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="img\1920x1080\01.jpg" />
     <Content Include="img\1920x1080\02.jpg" />

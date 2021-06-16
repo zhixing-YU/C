@@ -24,54 +24,42 @@ namespace WebApplication5
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            /*
-            if (TextBox1.Text == "root" && TextBox2.Text == "123456")
-            {
-                HttpCookie cookie = new HttpCookie("user");
-                cookie.Value = TextBox1.Text;
-                HttpContext.Current.Response.Cookies.Add(cookie);
-                Response.Redirect("Default.aspx");
-            }
-            else {
-                Label2.Text = "帳號或密碼錯誤!!";
-            }
-            */
-            /*
+            //創一個變數存放從config內的資訊，其實也可不用創立這變數，直接放進SqlConnection內即可。
             string s_data = System.Web.Configuration.WebConfigurationManager.ConnectionStrings["Computer_productionConnectionString"].ConnectionString;
 
-            SqlConnection Connection = new SqlConnection(s_data);
-
-            string sqlTset = "select * from accounts_Mbmbers";
-
-            SqlCommand Command = new SqlCommand(sqlTset,Connection);
-
-            Connection.Open();
-
-            SqlDataReader Reader = Command.ExecuteReader();
-
-            if (Reader.HasRows)
-            {
-                if (Reader.Read())
-                {
-                    Label2.Text = Reader["密碼"].ToString();
-                }
-            }
-            Connection.Close();
-            */
-            string s_data = System.Web.Configuration.WebConfigurationManager.ConnectionStrings["Computer_productionConnectionString"].ConnectionString;
-
+            //new一個SqlConnection物件，是與資料庫連結的通道(其名為Connection)，以s_data內的連接字串連接所對應的資料庫。
             SqlConnection connection = new SqlConnection(s_data);
 
-            SqlCommand command = new SqlCommand("select * from accounts_Mbmbers", connection);
+            //new一個SqlCommand告訴這個物件準備要執行什麼SQL指令
+            SqlCommand Command = new SqlCommand($"SELECT * FROM accounts_Mbmbers", connection);
 
+            //與資料庫連接的通道開啟
             connection.Open();
 
-            SqlDataReader Reader = command.ExecuteReader();
+            //new一個DataReader接取Execute所回傳的資料。
+            SqlDataReader Reader = Command.ExecuteReader();
 
-            if (Reader.Read())
+            //檢查是否有資料列
+            if (Reader.HasRows)
             {
-                Label2.Text = Reader[5].ToString();
+                //使用Read方法把資料讀進Reader，讓Reader一筆一筆順向指向資料列，並回傳是否成功。
+                if (Reader.Read())
+                {
+                    if (TextBox1.Text == Reader["會員帳號"].ToString() && TextBox2.Text == Reader["密碼"].ToString())
+                    {
+                        HttpCookie cookie = new HttpCookie("user");
+                        cookie.Value = TextBox1.Text;
+                        HttpContext.Current.Response.Cookies.Add(cookie);
+                        Response.Redirect("Default.aspx");
+                    }
+                    else
+                    {
+                        Label2.Text = "帳號或密碼錯誤!!";
+                    }
+                }
             }
+            
+            //關閉與資料庫連接的通道
             connection.Close();
         }
 

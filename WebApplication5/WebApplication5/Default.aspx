@@ -84,7 +84,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">歡迎來到PC shOP購物平台</h1>
+                                <h1 class="carousel-title">歡迎來到pc SHOP購物平台</h1>
                                 <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
