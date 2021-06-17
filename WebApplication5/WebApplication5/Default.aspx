@@ -23,14 +23,15 @@
    
   
     <body id="body" data-spy="scroll" data-target=".header">
-
+        <form id="form1" runat="server">
           <header class="header navbar-fixed-top">
               <nav class="navbar" role="navigation">
                 <div class="container">
                       <div class="menu-container js_nav-item">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
                             <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
+                            <span class="toggle-icon">
+                            </span>
                         </button>
 
                           <div class="logo">
@@ -50,14 +51,15 @@
 						<li><a href="#">FR</a></li>
 					  </ul>
 					</div---> 
-					
+
                         <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
+                            <ul class="nav navbar-nav navbar-nav-right" runat="server">
+                                <li class="js_nav-item nav-item"><asp:Label class="nav-item-child nav-item-hover" ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered">登入/註冊</a></li>
+                                <!--<asp:Button ID="Button2" runat="server" Text="登出" />-->
 <!--
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Credentials</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
@@ -65,6 +67,7 @@
 --->
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </nav>
@@ -116,7 +119,7 @@
                     <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
                         <div class="margin-b-60">
-                            <form id="form1" runat="server">
+                            
                                 <table border="1" style="font-size:18px;font-family:serif" cellpadding="5">
                                     <tr>
                                         <th>
