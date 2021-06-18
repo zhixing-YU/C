@@ -40,31 +40,49 @@ namespace WebApplication5
             {
                 if (Reader.Read())
                 {
-                    if (string.IsNullOrEmpty(TextBox1.Text) != true && string.IsNullOrEmpty(TextBox2.Text) != true && string.IsNullOrEmpty(TextBox3.Text) != true)
+                    if (string.IsNullOrEmpty(TextBox1.Text) != true && string.IsNullOrEmpty(TextBox2.Text) != true && string.IsNullOrEmpty(TextBox3.Text) != true && string.IsNullOrEmpty(TextBox4.Text) != true && string.IsNullOrEmpty(TextBox5.Text) != true && string.IsNullOrEmpty(TextBox5.Text) != true && string.IsNullOrEmpty(TextBox6.Text) != true)
                     {
                         if (TextBox1.Text != Reader["會員帳號"].ToString())   
                         {
-                            bool IsEmail = Regex.IsMatch(TextBox3.Text, @"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*");
-                            if (TextBox3.Text != Reader["郵件地址"].ToString())             
+                            if (TextBox2.Text == TextBox7.Text)
                             {
-                                if (IsEmail)
+                                bool IsEmail = Regex.IsMatch(TextBox3.Text, @"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*");
+                                if (TextBox3.Text != Reader["郵件地址"].ToString())
                                 {
-                                    HttpCookie cookie = new HttpCookie("user");
-                                    cookie.Value = TextBox1.Text;
-                                    HttpContext.Current.Response.Cookies.Add(cookie);
-                                    //connection.Close();
+                                    if (IsEmail)
+                                    {
+                                        HttpCookie cookie = new HttpCookie("user");
+                                        cookie.Value = TextBox1.Text;
+                                        HttpContext.Current.Response.Cookies.Add(cookie);
+                                        connection.Close();
 
-                                    string sql = $"insert into [accounts_Mbmbers](會員帳號,密碼,郵件地址) values('"+TextBox1.Text+"','"+TextBox2.Text+"','"+TextBox3.Text+"')";
-                                    //connection.Open();
-                                    SqlCommand Command2 = new SqlCommand(sql, connection);
-                                    Command2.ExecuteNonQuery();
-                                    connection.Close();
+                                        string ss_data = System.Web.Configuration.WebConfigurationManager.ConnectionStrings["Computer_productionConnectionString"].ConnectionString;
+                                        SqlConnection connection2 = new SqlConnection(ss_data);
+                                        string sql = $"insert into [accounts_Mbmbers](會員帳號,密碼,郵件地址,會員姓名,連絡電話,會員地址) values(@user,@pass,@email,@name,@phone,@adress)";
+                                        connection2.Open();
+                                        SqlCommand Command2 = new SqlCommand(sql, connection2);
+                                        Command2.Parameters.Add("@user", SqlDbType.NVarChar);
+                                        Command2.Parameters["@user"].Value = TextBox1.Text;
+                                        Command2.Parameters.Add("@pass", SqlDbType.NVarChar);
+                                        Command2.Parameters["@pass"].Value = TextBox2.Text;
+                                        Command2.Parameters.Add("@email", SqlDbType.NVarChar);
+                                        Command2.Parameters["@email"].Value = TextBox3.Text;
+                                        Command2.Parameters.Add("@name", SqlDbType.NVarChar);
+                                        Command2.Parameters["@name"].Value = TextBox4.Text;
+                                        Command2.Parameters.Add("@phone", SqlDbType.NVarChar);
+                                        Command2.Parameters["@phone"].Value = TextBox5.Text;
+                                        Command2.Parameters.Add("@adress", SqlDbType.NVarChar);
+                                        Command2.Parameters["@adress"].Value = TextBox6.Text;
+                                        Command2.ExecuteNonQuery();
+                                        connection2.Close();
 
-                                    Response.Redirect("Default.aspx");      
+                                        Response.Redirect("Default.aspx");
+                                    }
+                                    else Label2.Text = "請輸入正確的E-mail格式"; connection.Close();
                                 }
-                                else Label2.Text = "請輸入正確的E-mail格式"; connection.Close();
+                                else Label2.Text = "已存在該E-mail用戶"; connection.Close();
                             }
-                            else Label2.Text = "已存在該E-mail用戶"; connection.Close();
+                            else Label2.Text = "二次輸入密碼錯誤"; connection.Close();
                         }
                         else Label2.Text = "已存在重複帳號"; connection.Close();
                     }

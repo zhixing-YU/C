@@ -74,12 +74,16 @@
                                <form id="form1" runat="server">
                                    
                                     <font color="#fff"><div>請註冊帳號</div></font>
-                                       <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><font color="#fff">帳號</font><br />
-                                       <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><font color="#fff">密碼</font><br /> 
-                                       <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><font color="#fff">E-mail</font><br />
-                                       <!--<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><font color="#fff">驗證碼</font><br />-->
+                                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><font color="#fff">帳號</font><br />
+                                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox><font color="#fff">密碼</font><br /> 
+                                    <asp:TextBox ID="TextBox7" runat="server" TextMode="Password"></asp:TextBox><font color="#fff">確認密碼</font><br />
+                                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><font color="#fff">E-mail</font><br />
+                                    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><font color="#fff">會員姓名</font><br />
+                                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><font color="#fff">連絡電話</font><br />
+                                    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox><font color="#fff">會員地址</font><br />
+                                       <!--<asp:TextBox ID="TextBox8" runat="server"></asp:TextBox><font color="#fff">驗證碼</font><br />-->
                                    <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
-                                   <br />
+                                    <br />
                                     <asp:Button class="btn-theme btn-theme-sm btn-white-brd text-uppercase" ID="Button1" runat="server" Text="確認" OnClick="Button1_Click"></asp:Button>              
                                 </form>
                             </div>

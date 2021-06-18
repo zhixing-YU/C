@@ -74,7 +74,7 @@
                                <form id="form1" runat="server">  
                                     <font color="#fff"><div>請登入帳號</div></font>
                                     <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox><font color="#fff">帳號</font><br />
-                                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><font color="#fff">密碼</font><br /> 
+                                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox><font color="#fff">密碼</font><br /> 
                                     <!--<a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">確認</a>--->
                                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" Text="確認" />
                                     <br />
