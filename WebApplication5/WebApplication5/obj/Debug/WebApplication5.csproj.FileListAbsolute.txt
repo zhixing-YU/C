@@ -554,3 +554,11 @@ C:\Users\user\source\repos\WebApplication5\WebApplication5\bin\EntityFramework.x
 C:\Users\user\source\repos\WebApplication5\WebApplication5\bin\EntityFramework.SqlServer.xml
 C:\Users\user\source\repos\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
 C:\Users\user\source\repos\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\EntityFramework.dll
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\EntityFramework.SqlServer.dll
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\EntityFramework.xml
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\EntityFramework.SqlServer.xml
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml

@@ -67,7 +67,7 @@
         </div>
     <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
+                    <img class="img-responsive" src="img/1920x1080/Geforce-GTX.jpg" alt="Slider Image">
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">

@@ -142,6 +142,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="img\1920x1080\Geforce-GTX.jpg" />
+    <Content Include="img\1920x1080\Windows-10.jpg" />
     <Content Include="img\logo\logo-dark.png" />
     <Content Include="img\logo\logo-dark_1.png" />
     <Content Include="img\logo\logo.png" />

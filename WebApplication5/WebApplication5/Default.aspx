@@ -87,8 +87,8 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">歡迎來到pc SHOP購物平台</h1>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <h1 class="carousel-title">歡迎來到PC Shop購物平台</h1>
+                                <p class="color-white">Hello! </p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
                         </div>
@@ -99,8 +99,8 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h2 class="carousel-title">歡迎來到Flame購物平台</h2>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <h2 class="carousel-title">歡迎來到PC Shop購物平台</h2>
+                                <p class="color-white">Hello! </p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
                         </div>
@@ -113,9 +113,10 @@
         <!--========== PAGE LAYOUT ==========-->
         <!-- About -->
         <div id="about">
-            <div class="content-lg container">
                 <!-- Masonry Grid -->
-                <div class="masonry-grid row">
+                <div class="masonry-grid row">                 
+                    <img class="img-responsive" src="img/1920x1080/Windows-10.jpg" alt="Slider Image">
+                    <div class="container">
                     <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
                         <div class="margin-b-60">
@@ -298,7 +299,6 @@
                                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [accounts_Mbmbers]"></asp:SqlDataSource>
                                 <asp:Label ID="Label29" runat="server" Text="元" Font-Size="30px"></asp:Label>
                                 <asp:Button ID="Button1" runat="server" Text="確定" Font-Size="30px" />
-                            </form>
                         </div>
                     </div>
 				</div>
@@ -328,7 +328,7 @@
         <script src="js/components/wow.min.js" type="text/javascript"></script>
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
-
+           </form>
     </body>
     <!-- END BODY -->
 </html>
