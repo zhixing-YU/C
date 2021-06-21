@@ -95,10 +95,13 @@
                                         <th>
                                             <asp:Label ID="Label18" runat="server" Text="金額" ForeColor="Black" Height="41px" Width="100px" Font-Size="25px"></asp:Label>
                                         </th>
+                                        <th>
+                                            <asp:Label ID="Label31" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="25px"></asp:Label>
+                                        </th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:CheckBox ID="CheckBox1" runat="server" Height="41px" Width="20px" />
+                                            <asp:CheckBox ID="CheckBox1" runat="server" Height="41px" Width="20px" style="zoom:120%;" />
                                         </td>
                                         <td>
                                             <asp:Label ID="Label4" runat="server" ForeColor="Black" Height="41px" Width="500px" Font-Size="20px"></asp:Label>
@@ -114,10 +117,13 @@
                                         <td>
                                             <asp:Label ID="Label19" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
+                                        <td>
+                                            <asp:Button ID="Button2" runat="server" Text="刪除" />
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:CheckBox ID="CheckBox2" runat="server" Height="41px" Width="20px" />
+                                            <asp:CheckBox ID="CheckBox2" runat="server" Height="41px" Width="20px" style="zoom:120%;"/>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label5" runat="server" ForeColor="Black" Height="41px" Width="500px" Font-Size="20px"></asp:Label>
@@ -135,10 +141,13 @@
                                         <td>
                                             <asp:Label ID="Label20" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
+                                        <td>
+                                            <asp:Button ID="Button3" runat="server" Text="刪除" />
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:CheckBox ID="CheckBox3" runat="server" Height="41px" Width="20px" />
+                                            <asp:CheckBox ID="CheckBox3" runat="server" Height="41px" Width="20px" style="zoom:120%;"/>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label6" runat="server" ForeColor="Black" Height="41px" Width="500px" Font-Size="20px"></asp:Label>
@@ -156,10 +165,13 @@
                                         <td>
                                             <asp:Label ID="Label21" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
+                                        <td>
+                                            <asp:Button ID="Button4" runat="server" Text="刪除" />
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:CheckBox ID="CheckBox4" runat="server" Height="41px" Width="20px" />
+                                            <asp:CheckBox ID="CheckBox4" runat="server" Height="41px" Width="20px" style="zoom:120%;"/>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label7" runat="server" ForeColor="Black" Height="41px" Width="500px" Font-Size="20px"></asp:Label>
@@ -177,10 +189,13 @@
                                         <td>
                                             <asp:Label ID="Label22" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
+                                        <td>
+                                            <asp:Button ID="Button5" runat="server" Text="刪除" />
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:CheckBox ID="CheckBox5" runat="server" Height="41px" Width="20px" />
+                                            <asp:CheckBox ID="CheckBox5" runat="server" Height="41px" Width="20px" style="zoom:120%;"/>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label8" runat="server" ForeColor="Black" Height="41px" Width="500px" Font-Size="20px"></asp:Label>
@@ -198,10 +213,13 @@
                                         <td>
                                             <asp:Label ID="Label23" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
+                                        <td>
+                                            <asp:Button ID="Button6" runat="server" Text="刪除" />
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:CheckBox ID="CheckBox6" runat="server" Height="41px" Width="20px" />
+                                            <asp:CheckBox ID="CheckBox6" runat="server" Height="41px" Width="20px" style="zoom:120%;"/>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label9" runat="server" ForeColor="Black" Height="41px" Width="500px" Font-Size="20px"></asp:Label>
@@ -219,10 +237,13 @@
                                         <td>
                                             <asp:Label ID="Label24" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
+                                        <td>
+                                            <asp:Button ID="Button7" runat="server" Text="刪除" />
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:CheckBox ID="CheckBox7" runat="server" Height="41px" Width="20px" />
+                                            <asp:CheckBox ID="CheckBox7" runat="server" Height="41px" Width="20px" style="zoom:120%;"/>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label17" runat="server" ForeColor="Black" Height="41px" Width="500px" Font-Size="20px"></asp:Label>
@@ -239,6 +260,9 @@
                                         </td>
                                         <td>
                                             <asp:Label ID="Label26" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
+                                        <td>
+                                            <asp:Button ID="Button8" runat="server" Text="刪除" />
                                         </td>
                                     </tr>
                                 </table>
