@@ -562,3 +562,11 @@ C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\EntityFramework.xml
 C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\EntityFramework.SqlServer.xml
 C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
 C:\Users\co10a\Desktop\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\EntityFramework.dll
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\EntityFramework.SqlServer.dll
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\EntityFramework.xml
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\EntityFramework.SqlServer.xml
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\GameToGo\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
