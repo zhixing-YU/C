@@ -96,15 +96,6 @@ namespace WebApplication5
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
-        /// DropDownList8 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList8;
-
-        /// <summary>
         /// Label11 控制項。
         /// </summary>
         /// <remarks>
@@ -112,6 +103,15 @@ namespace WebApplication5
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label11;
+
+        /// <summary>
+        /// DropDownList8 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList8;
 
         /// <summary>
         /// Label19 控制項。
@@ -141,15 +141,6 @@ namespace WebApplication5
         protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
 
         /// <summary>
-        /// DropDownList9 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList9;
-
-        /// <summary>
         /// Label12 控制項。
         /// </summary>
         /// <remarks>
@@ -157,6 +148,15 @@ namespace WebApplication5
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label12;
+
+        /// <summary>
+        /// DropDownList9 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList9;
 
         /// <summary>
         /// Label20 控制項。
@@ -186,15 +186,6 @@ namespace WebApplication5
         protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
 
         /// <summary>
-        /// DropDownList10 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList10;
-
-        /// <summary>
         /// Label13 控制項。
         /// </summary>
         /// <remarks>
@@ -202,6 +193,15 @@ namespace WebApplication5
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label13;
+
+        /// <summary>
+        /// DropDownList10 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList10;
 
         /// <summary>
         /// Label21 控制項。
@@ -231,15 +231,6 @@ namespace WebApplication5
         protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
 
         /// <summary>
-        /// DropDownList11 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList11;
-
-        /// <summary>
         /// Label14 控制項。
         /// </summary>
         /// <remarks>
@@ -247,6 +238,15 @@ namespace WebApplication5
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label14;
+
+        /// <summary>
+        /// DropDownList11 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList11;
 
         /// <summary>
         /// Label22 控制項。
@@ -276,15 +276,6 @@ namespace WebApplication5
         protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
 
         /// <summary>
-        /// DropDownList12 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList12;
-
-        /// <summary>
         /// Label15 控制項。
         /// </summary>
         /// <remarks>
@@ -292,6 +283,15 @@ namespace WebApplication5
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label15;
+
+        /// <summary>
+        /// DropDownList12 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList12;
 
         /// <summary>
         /// Label23 控制項。
@@ -321,15 +321,6 @@ namespace WebApplication5
         protected global::System.Web.UI.WebControls.DropDownList DropDownList13;
 
         /// <summary>
-        /// DropDownList14 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList14;
-
-        /// <summary>
         /// Label16 控制項。
         /// </summary>
         /// <remarks>
@@ -337,6 +328,15 @@ namespace WebApplication5
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label16;
+
+        /// <summary>
+        /// DropDownList14 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList14;
 
         /// <summary>
         /// Label24 控制項。
@@ -366,15 +366,6 @@ namespace WebApplication5
         protected global::System.Web.UI.WebControls.DropDownList DropDownList6;
 
         /// <summary>
-        /// DropDownList15 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList15;
-
-        /// <summary>
         /// Label25 控制項。
         /// </summary>
         /// <remarks>
@@ -382,6 +373,15 @@ namespace WebApplication5
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label25;
+
+        /// <summary>
+        /// DropDownList15 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList15;
 
         /// <summary>
         /// Label26 控制項。
