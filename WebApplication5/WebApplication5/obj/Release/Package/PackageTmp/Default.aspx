@@ -19,18 +19,24 @@
         <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" href="favicon.ico"/>
+        <style>
+            img {
+                opacity: 0.5;
+            }
+        </style>
     </head>
    
   
     <body id="body" data-spy="scroll" data-target=".header">
-
+        <form id="form1" runat="server">
           <header class="header navbar-fixed-top">
               <nav class="navbar" role="navigation">
                 <div class="container">
                       <div class="menu-container js_nav-item">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
                             <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
+                            <span class="toggle-icon">
+                            </span>
                         </button>
 
                           <div class="logo">
@@ -43,28 +49,16 @@
 
                     <div class="collapse navbar-collapse nav-collapse">
 					
-					<!--div class="language-switcher">
-					  <ul class="nav-lang">
-                        <li><a class="active" href="#">EN</a></li>
-					    <li><a href="#">DE</a></li>
-						<li><a href="#">FR</a></li>
-					  </ul>
-					</div---> 
-					
                         <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
+                            <ul class="nav navbar-nav navbar-nav-right" runat="server">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="login"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered">登入/註冊</a></li>
-<!--
-								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Credentials</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
---->
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </nav>
@@ -84,8 +78,8 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">歡迎來到pc SHOP購物平台</h1>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <h1 class="carousel-title">歡迎來到PC Shop購物平台</h1>
+                                <p class="color-white">Hello! </p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
                         </div>
@@ -96,8 +90,8 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h2 class="carousel-title">歡迎來到Flame購物平台</h2>
-                                <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                                <h2 class="carousel-title">歡迎來到PC Shop購物平台</h2>
+                                <p class="color-white">Hello! </p>
                             </div>
                             <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
                         </div>
@@ -110,13 +104,14 @@
         <!--========== PAGE LAYOUT ==========-->
         <!-- About -->
         <div id="about">
-            <div class="content-lg container">
                 <!-- Masonry Grid -->
-                <div class="masonry-grid row">
+                <div class="masonry-grid row">                 
+                    <img class="img-responsive" src="img/1920x1080/Windows-10.jpg" alt="Slider Image">
+                    <div class="container">
                     <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
                         <div class="margin-b-60">
-                            <form id="form1" runat="server">
+                            
                                 <table border="1" style="font-size:18px;font-family:serif" cellpadding="5">
                                     <tr>
                                         <th>
@@ -124,10 +119,10 @@
                                         </th>
                                         <th></th>
                                         <th>
-                                            <asp:Label ID="Label3" runat="server" Text="數量" ForeColor="Black" Height="41px" Width="100px" Font-Size="25px"></asp:Label>
+                                            <asp:Label ID="Label3" runat="server" Text="單價" ForeColor="Black" Height="41px" Width="100px" Font-Size="25px"></asp:Label>
                                         </th>
                                         <th>
-                                            <asp:Label ID="Label10" runat="server" Text="單價" ForeColor="Black" Height="41px" Width="100px" Font-Size="25px"></asp:Label>
+                                            <asp:Label ID="Label10" runat="server" Text="數量" ForeColor="Black" Height="41px" Width="100px" Font-Size="25px"></asp:Label>
                                         </th>
                                         <th>
                                             <asp:Label ID="Label18" runat="server" Text="金額" ForeColor="Black" Height="41px" Width="100px" Font-Size="25px"></asp:Label>
@@ -143,15 +138,16 @@
                                                 <asp:ListItem>廠牌1</asp:ListItem>
                                             </asp:DropDownList>
                                         </td>
+                                        
+                                        <td>
+                                            <asp:Label ID="Label11" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
                                         <td>
 
                                             <asp:DropDownList ID="DropDownList8" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px">
                                                 <asp:ListItem>1</asp:ListItem>
                                             </asp:DropDownList>
 
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label11" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label19" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
@@ -167,13 +163,14 @@
                                                 <asp:ListItem>廠牌1</asp:ListItem>
                                             </asp:DropDownList>
                                         </td>
+                                        
+                                        <td>
+                                            <asp:Label ID="Label12" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
                                         <td>
                                             <asp:DropDownList ID="DropDownList9" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px">
                                                 <asp:ListItem>1</asp:ListItem>
                                             </asp:DropDownList>
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label12" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label20" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
@@ -189,13 +186,14 @@
                                                 <asp:ListItem>廠牌1</asp:ListItem>
                                             </asp:DropDownList>
                                         </td>
+                                        
+                                        <td>
+                                            <asp:Label ID="Label13" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
                                         <td>
                                             <asp:DropDownList ID="DropDownList10" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px">
                                                 <asp:ListItem>1</asp:ListItem>
                                             </asp:DropDownList>
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label13" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label21" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
@@ -211,13 +209,14 @@
                                                 <asp:ListItem>廠牌1</asp:ListItem>
                                             </asp:DropDownList>
                                         </td>
+                                        
+                                        <td>
+                                            <asp:Label ID="Label14" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
                                         <td>
                                             <asp:DropDownList ID="DropDownList11" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px">
                                                 <asp:ListItem>1</asp:ListItem>
                                             </asp:DropDownList>
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label14" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label22" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
@@ -233,13 +232,14 @@
                                                 <asp:ListItem>廠牌1</asp:ListItem>
                                             </asp:DropDownList>
                                         </td>
+                                        
+                                        <td>
+                                            <asp:Label ID="Label15" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
                                         <td>
                                             <asp:DropDownList ID="DropDownList12" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px">
                                                 <asp:ListItem>1</asp:ListItem>
                                             </asp:DropDownList>
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label15" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label23" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
@@ -255,13 +255,14 @@
                                                 <asp:ListItem>廠牌1</asp:ListItem>
                                             </asp:DropDownList>
                                         </td>
+                                        
+                                        <td>
+                                            <asp:Label ID="Label16" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
                                         <td>
                                             <asp:DropDownList ID="DropDownList14" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px">
                                                 <asp:ListItem>1</asp:ListItem>
                                             </asp:DropDownList>
-                                        </td>
-                                        <td>
-                                            <asp:Label ID="Label16" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
                                         <td>
                                             <asp:Label ID="Label24" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
@@ -277,25 +278,25 @@
                                                 <asp:ListItem>廠牌1</asp:ListItem>
                                             </asp:DropDownList> 
                                         </td>
+                                        
+                                        <td>
+                                            <asp:Label ID="Label25" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
+                                        </td>
                                         <td>
                                             <asp:DropDownList ID="DropDownList15" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px">
                                                 <asp:ListItem>1</asp:ListItem>
                                             </asp:DropDownList>
                                         </td>
                                         <td>
-                                            <asp:Label ID="Label25" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
-                                        </td>
-                                        <td>
                                             <asp:Label ID="Label26" runat="server" ForeColor="Black" Height="41px" Width="100px" Font-Size="20px"></asp:Label>
                                         </td>
                                     </tr>
                                 </table>
-                                <asp:Label ID="Label27" runat="server" Text="總金額：" Font-Size="30px"></asp:Label>
-                                <asp:Label ID="Label28" runat="server" Width="200px" Font-Size="30px"></asp:Label>
+                                <asp:Label ID="Label27" runat="server" Text="總金額：" Font-Size="30px" ForeColor="Black"></asp:Label>
+                                <asp:Label ID="Label28" runat="server" Width="200px" Font-Size="30px" ForeColor="Black"></asp:Label>
                                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [accounts_Mbmbers]"></asp:SqlDataSource>
-                                <asp:Label ID="Label29" runat="server" Text="元" Font-Size="30px"></asp:Label>
-                                <asp:Button ID="Button1" runat="server" Text="確定" Font-Size="30px" />
-                            </form>
+                                <asp:Label ID="Label29" runat="server" Text="元" Font-Size="30px" ForeColor="Black"></asp:Label>
+                                <asp:Button ID="Button1" runat="server" Text="加入購物籃" Font-Size="30px" />
                         </div>
                     </div>
 				</div>
@@ -325,7 +326,7 @@
         <script src="js/components/wow.min.js" type="text/javascript"></script>
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
-
+           </form>
     </body>
     <!-- END BODY -->
 </html>
