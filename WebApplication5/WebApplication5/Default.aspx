@@ -49,27 +49,13 @@
 
                     <div class="collapse navbar-collapse nav-collapse">
 					
-					<!--div class="language-switcher">
-					  <ul class="nav-lang">
-                        <li><a class="active" href="#">EN</a></li>
-					    <li><a href="#">DE</a></li>
-						<li><a href="#">FR</a></li>
-					  </ul>
-					</div---> 
-
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right" runat="server">
-                                <li class="js_nav-item nav-item"><asp:Label class="nav-item-child nav-item-hover" ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="login"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered">登入/註冊</a></li>
-                                <!--<asp:Button ID="Button2" runat="server" Text="登出" />-->
-<!--
-								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Credentials</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
---->
                             </ul>
                         </div>
 

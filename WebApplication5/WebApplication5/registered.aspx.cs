@@ -10,15 +10,17 @@ namespace WebApplication5
 {
     public partial class registered: Page
     {
+        string user;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (HttpContext.Current.Request.Cookies["user"] == null)
+            if (Session["user"] == null)
             {
                 Label1.Text = "訪客";
             }
             else
             {
-                Label1.Text = HttpContext.Current.Request.Cookies["user"].Value;
+                user = Session["user"].ToString();
+                Label1.Text = user;
             }
         }
 
@@ -40,9 +42,7 @@ namespace WebApplication5
                 {
                     if (TextBox1.Text == Reader["會員帳號"].ToString() && TextBox2.Text == Reader["密碼"].ToString())
                     {
-                        HttpCookie cookie = new HttpCookie("user");
-                        cookie.Value = TextBox1.Text;
-                        HttpContext.Current.Response.Cookies.Add(cookie);
+                        Session["user"] = TextBox1.Text;
                         Response.Redirect("Default.aspx");
                     }
                     else
