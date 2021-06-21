@@ -15,6 +15,8 @@ namespace WebApplication5
         string user;
         protected void Page_Load(object sender, EventArgs e)
         {
+            string localPath = Request.Url.LocalPath;
+            Session["local"] = localPath;
             if (Session["user"] == null)
             {
                 Label1.Text = "訪客";

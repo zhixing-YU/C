@@ -14,8 +14,9 @@ namespace WebApplication5
         {
             if (Session["user"] == null)
             {
+                string local = Session["local"].ToString();
                 Label1.Text = "訪客";
-                Response.Redirect("Default.aspx");
+                Response.Redirect(local);
             }
             else
             {
