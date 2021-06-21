@@ -71,9 +71,6 @@
                     <div class="container">
                     </div>
                 </div>
-        </div>
-    <br /><br /><br />
-    
-        
+        </div>  
 </body>
 </html>
