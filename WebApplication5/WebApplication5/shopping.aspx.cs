@@ -9,15 +9,19 @@ namespace WebApplication5
 {
     public partial class shopping: Page
     {
+        string user;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (HttpContext.Current.Request.Cookies["user"] == null)
+            string localPath = Request.Url.LocalPath;
+            Session["local"] = localPath;
+            if (Session["user"] == null)
             {
                 Label1.Text = "訪客";
             }
             else
             {
-                Label1.Text = HttpContext.Current.Request.Cookies["user"].Value;
+                user = Session["user"].ToString();
+                Label1.Text = user;
             }
         }
     }

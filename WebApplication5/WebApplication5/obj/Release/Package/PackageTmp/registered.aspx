@@ -41,16 +41,11 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="login"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered">登入/註冊</a></li>
-<!--
-								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Credentials</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
---->
                             </ul>
                         </div>
                         </div>
@@ -67,15 +62,14 @@
         </div>
     <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
+                    <img class="img-responsive" src="img/1920x1080/Geforce-GTX.jpg" alt="Slider Image">
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                <form id="form1" runat="server">  
                                     <font color="#fff"><div>請登入帳號</div></font>
                                     <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox><font color="#fff">帳號</font><br />
-                                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><font color="#fff">密碼</font><br /> 
-                                    <!--<a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">確認</a>--->
+                                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox><font color="#fff">密碼</font><br /> 
                                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" Text="確認" />
                                     <br />
                                     <font color="#fff"><asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Italic="False" Font-Size="X-Large"></asp:Label></font>
@@ -85,9 +79,6 @@
                         </div>
                     </div>
                 </div>
-        </div>
-    <br /><br /><br />
-    
-        
+        </div>      
 </body>
 </html>

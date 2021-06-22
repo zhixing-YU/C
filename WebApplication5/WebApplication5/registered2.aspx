@@ -41,16 +41,11 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="login"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#body">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#about">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered">登入/註冊</a></li>
-<!--
-								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Credentials</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
---->
                             </ul>
                         </div>
                         </div>
@@ -81,7 +76,6 @@
                                     <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><font color="#fff">會員姓名</font><br />
                                     <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><font color="#fff">連絡電話</font><br />
                                     <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox><font color="#fff">會員地址</font><br />
-                                       <!--<asp:TextBox ID="TextBox8" runat="server"></asp:TextBox><font color="#fff">驗證碼</font><br />-->
                                    <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
                                     <br />
                                     <asp:Button class="btn-theme btn-theme-sm btn-white-brd text-uppercase" ID="Button1" runat="server" Text="確認" OnClick="Button1_Click"></asp:Button>              

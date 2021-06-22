@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="registered.aspx.cs" Inherits="WebApplication5.registered" %>
+﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="WebApplication5.login" %>
 
 <!DOCTYPE html>
 
 <html lang="zh-Hant-TW" class="no-js">
 <head runat="server">
         <meta charset="utf-8"/>
-        <title>登入頁面</title>
+        <title>使用者頁面</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="FlameOnePage freebie theme for web startups by FairTech SEO." name="description"/>
@@ -67,18 +67,16 @@
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                <form id="form1" runat="server">  
-                                    <font color="#fff"><div>請登入帳號</div></font>
-                                    <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox><font color="#fff">帳號</font><br />
-                                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox><font color="#fff">密碼</font><br /> 
-                                   <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" Text="確認" />
-                                    <br />
-                                    <font color="#fff"><asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Italic="False" Font-Size="X-Large"></asp:Label></font>
+                                   <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" class="btn-theme btn-theme-sm btn-white-brd text-uppercase" Text="登出" />
+
                                 </form>
                             </div>
-                            <a href="registered2" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">註冊帳號</a>
+
                         </div>
                     </div>
                 </div>
         </div>      
 </body>
 </html>
+
+
