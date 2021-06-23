@@ -1,0 +1,11 @@
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\bin\Debug\netcoreapp3.1\sample.deps.json
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\bin\Debug\netcoreapp3.1\sample.dll
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\bin\Debug\netcoreapp3.1\sample.pdb
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.csproj.AssemblyReference.cache
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.UserControl1.resources
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.csproj.GenerateResource.cache
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.AssemblyInfoInputs.cache
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.AssemblyInfo.cs
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.csproj.CoreCompileInputs.cache
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.dll
+C:\Users\GameToGo\Documents\GitHub\C\Test\sample\obj\Debug\netcoreapp3.1\sample.pdb
