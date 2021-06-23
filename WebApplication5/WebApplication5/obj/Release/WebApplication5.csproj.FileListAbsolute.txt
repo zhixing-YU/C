@@ -162,3 +162,7 @@ C:\Users\user\source\repos\WebApplication5\WebApplication5\obj\Release\WebApplic
 C:\Users\user\source\repos\WebApplication5\WebApplication5\obj\Release\WebApplication5.csproj.CopyComplete
 C:\Users\user\source\repos\WebApplication5\WebApplication5\obj\Release\WebApplication5.dll
 C:\Users\user\source\repos\WebApplication5\WebApplication5\obj\Release\WebApplication5.pdb
+C:\Users\Akikure\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\Akikure\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\Akikure\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\Akikure\Documents\GitHub\C\WebApplication5\WebApplication5\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
