@@ -24,408 +24,408 @@ namespace WebApplication5
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// username 控制項。
+        /// Label1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label username;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// cpu_product_name_DropDownList 控制項。
+        /// Label2 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cpu_product_name_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// cpu_sql_database_string 控制項。
+        /// Label3 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource cpu_sql_database_string;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// cpu_item_count_DropDownList 控制項。
+        /// Label10 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cpu_item_count_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// cpu_price_label 控制項。
+        /// Label18 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cpu_price_label;
+        protected global::System.Web.UI.WebControls.Label Label18;
 
         /// <summary>
-        /// cpu_totalPrice_label 控制項。
+        /// Label4 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cpu_totalPrice_label;
+        protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// cpu_pid_label 控制項。
+        /// DropDownList1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cpu_pid_label;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
-        /// mdb_product_name_DropDownList 控制項。
+        /// Label11 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList mdb_product_name_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label11;
 
         /// <summary>
-        /// mdb_sql_database_string 控制項。
+        /// DropDownList8 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource mdb_sql_database_string;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList8;
 
         /// <summary>
-        /// mdb_item_count_DropDownList 控制項。
+        /// Label19 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList mdb_item_count_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label19;
 
         /// <summary>
-        /// mdb_price_label 控制項。
+        /// Label5 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mdb_price_label;
+        protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// mdb_totalPrice_label 控制項。
+        /// DropDownList2 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mdb_totalPrice_label;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
 
         /// <summary>
-        /// mdb_pid_label 控制項。
+        /// Label12 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mdb_pid_label;
+        protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
-        /// mem_product_name_DropDownList 控制項。
+        /// DropDownList9 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList mem_product_name_DropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList9;
 
         /// <summary>
-        /// mem_sql_database_string 控制項。
+        /// Label20 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource mem_sql_database_string;
+        protected global::System.Web.UI.WebControls.Label Label20;
 
         /// <summary>
-        /// mem_item_count_DropDownList 控制項。
+        /// Label6 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList mem_item_count_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// mem_price_label 控制項。
+        /// DropDownList3 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mem_price_label;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
 
         /// <summary>
-        /// mem_totalPrice_label 控制項。
+        /// Label13 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mem_totalPrice_label;
+        protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
-        /// mem_pid_label 控制項。
+        /// DropDownList10 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mem_pid_label;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList10;
 
         /// <summary>
-        /// hdd_product_name_DropDownList 控制項。
+        /// Label21 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList hdd_product_name_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label21;
 
         /// <summary>
-        /// hdd_sql_database_string 控制項。
+        /// Label7 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource hdd_sql_database_string;
+        protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// hdd_item_count_DropDownList 控制項。
+        /// DropDownList4 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList hdd_item_count_DropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
 
         /// <summary>
-        /// hdd_price_label 控制項。
+        /// Label14 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label hdd_price_label;
+        protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// hdd_totalPrice_label 控制項。
+        /// DropDownList11 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label hdd_totalPrice_label;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList11;
 
         /// <summary>
-        /// hdd_pid_label 控制項。
+        /// Label22 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label hdd_pid_label;
+        protected global::System.Web.UI.WebControls.Label Label22;
 
         /// <summary>
-        /// vga_product_name_DropDownList 控制項。
+        /// Label8 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList vga_product_name_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// vga_sql_database_string 控制項。
+        /// DropDownList5 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource vga_sql_database_string;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
 
         /// <summary>
-        /// vga_item_count_DropDownList 控制項。
+        /// Label15 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList vga_item_count_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label15;
 
         /// <summary>
-        /// vga_price_label 控制項。
+        /// DropDownList12 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label vga_price_label;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList12;
 
         /// <summary>
-        /// vga_totalPrice_label 控制項。
+        /// Label23 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label vga_totalPrice_label;
+        protected global::System.Web.UI.WebControls.Label Label23;
 
         /// <summary>
-        /// vga_pid_label 控制項。
+        /// Label9 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label vga_pid_label;
+        protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// cas_product_name_DropDownList 控制項。
+        /// DropDownList13 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cas_product_name_DropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList13;
 
         /// <summary>
-        /// cas_sql_database_string 控制項。
+        /// Label16 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource cas_sql_database_string;
+        protected global::System.Web.UI.WebControls.Label Label16;
 
         /// <summary>
-        /// cas_item_count_DropDownList 控制項。
+        /// DropDownList14 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cas_item_count_DropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList14;
 
         /// <summary>
-        /// cas_price_label 控制項。
+        /// Label24 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cas_price_label;
+        protected global::System.Web.UI.WebControls.Label Label24;
 
         /// <summary>
-        /// cas_totalPrice_label 控制項。
+        /// Label17 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cas_totalPrice_label;
+        protected global::System.Web.UI.WebControls.Label Label17;
 
         /// <summary>
-        /// cas_pid_label 控制項。
+        /// DropDownList6 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cas_pid_label;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList6;
 
         /// <summary>
-        /// psu_product_name_DropDownList 控制項。
+        /// Label25 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList psu_product_name_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label25;
 
         /// <summary>
-        /// psu_sql_database_string 控制項。
+        /// DropDownList15 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource psu_sql_database_string;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList15;
 
         /// <summary>
-        /// psu_item_count_DropDownList 控制項。
+        /// Label26 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList psu_item_count_DropDownList;
+        protected global::System.Web.UI.WebControls.Label Label26;
 
         /// <summary>
-        /// psu_price_label 控制項。
+        /// Label27 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label psu_price_label;
+        protected global::System.Web.UI.WebControls.Label Label27;
 
         /// <summary>
-        /// psu_totalPrice_label 控制項。
+        /// Label28 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label psu_totalPrice_label;
+        protected global::System.Web.UI.WebControls.Label Label28;
 
         /// <summary>
-        /// psu_pid_label 控制項。
+        /// SqlDataSource1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label psu_pid_label;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
-        /// final_total_price_count 控制項。
+        /// Label29 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label final_total_price_count;
+        protected global::System.Web.UI.WebControls.Label Label29;
 
         /// <summary>
-        /// shopping_cart_check_buttom 控制項。
+        /// Button1 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button shopping_cart_check_buttom;
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }
