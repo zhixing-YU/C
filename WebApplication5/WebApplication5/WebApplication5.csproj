@@ -130,7 +130,7 @@
     <Content Include="css\layout-rtl.min.css" />
     <Content Include="css\layout.css" />
     <Content Include="css\layout.min.css" />
-    <Content Include="login.aspx" />
+    <Content Include="mbmber_data.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -171,6 +171,7 @@
     <Content Include="sass\_mixins.scss" />
     <Content Include="sass\_variables.scss" />
     <Content Include="registered.aspx" />
+    <Content Include="WebForm1.aspx" />
     <None Include="Properties\PublishProfiles\WebApplication520210611162750 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\WebApplication520210614155014 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -294,12 +295,12 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="mbmber_data.aspx.cs">
+      <DependentUpon>mbmber_data.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="mbmber_data.aspx.designer.cs">
+      <DependentUpon>mbmber_data.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -353,6 +354,13 @@
     </Compile>
     <Compile Include="registered.aspx.designer.cs">
       <DependentUpon>registered.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -46,7 +46,7 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="login"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="mbmber_data"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#body" style="color: #000000">首頁</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#about" style="color: #000000">商品</a></li>
 								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping" style="color: #FF0000">購物籃</a></li>
@@ -72,7 +72,8 @@
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                <form id="form1" runat="server">  
-                                    <div>          
+                                    <div>
+
                                 <table border="1" style="font-size:18px;font-family:serif" cellpadding="5">
                                     <tr>
                                         <th>

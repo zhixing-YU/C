@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Data;
+using System.Text;
+
 namespace WebApplication5
 {
     public partial class Default : Page
@@ -247,6 +250,89 @@ namespace WebApplication5
 
             psu_pid_label.Text = psu_pid;
             final_total_price_count.Text = (int.Parse(cpu_totalPrice_label.Text) + int.Parse(mdb_totalPrice_label.Text) + int.Parse(mem_totalPrice_label.Text) + int.Parse(hdd_totalPrice_label.Text) + int.Parse(vga_totalPrice_label.Text) + int.Parse(cas_totalPrice_label.Text) + int.Parse(psu_totalPrice_label.Text)).ToString();
+        }
+
+        protected void shopping_cart_check_buttom_Click(object sender, EventArgs e)
+        {
+            if (Session["user"] == null)
+            {
+                Response.Redirect("registered");
+            }
+            else {
+                if (cpu_pid_label.Text =="" && mdb_pid_label.Text == "" && mem_pid_label.Text =="" && hdd_pid_label.Text =="" && vga_pid_label.Text=="" && cas_pid_label.Text=="" && psu_pid_label.Text=="")
+                {
+
+                }
+                else {
+                    var shop_list = new List<string>();
+                    string s_data = System.Web.Configuration.WebConfigurationManager.ConnectionStrings["Computer_productionConnectionString"].ConnectionString;
+                    SqlConnection connection = new SqlConnection(s_data);
+                    string sql = $"insert into [Orders](mbmbers_id,購買清單) values(@mbmbers_id,@buy_menus)";
+                    string sql_load = "select * from accounts_Mbmbers where 會員帳號 ='" + Session["user"] + "'";
+                    SqlCommand Command = new SqlCommand(sql, connection);
+                    SqlCommand command_load = new SqlCommand(sql_load, connection);
+                    connection.Open();
+
+                    SqlDataReader Reader = command_load.ExecuteReader();
+                    if (Reader.HasRows)
+                    {
+                        if (Reader.Read())
+                        {
+                            Command.Parameters.Add("@mbmbers_id", SqlDbType.Int);
+                            Command.Parameters["@mbmbers_id"].Value = Reader["id"].ToString();
+                        }
+                    }
+                    if (cpu_pid_label.Text !="") {
+                        shop_list.Add(cpu_pid_label.Text);
+                    }
+                    if (mdb_pid_label.Text != "")
+                    {
+                        shop_list.Add(mdb_pid_label.Text);
+                    }
+                    if (mem_pid_label.Text != "")
+                    {
+                        shop_list.Add(mem_pid_label.Text);
+                    }
+                    if (hdd_pid_label.Text != "")
+                    {
+                        shop_list.Add(hdd_pid_label.Text);
+                    }
+                    if (vga_pid_label.Text != "")
+                    {
+                        shop_list.Add(vga_pid_label.Text);
+                    }
+                    if (cas_pid_label.Text != "")
+                    {
+                        shop_list.Add(cas_pid_label.Text);
+                    }
+                    if (psu_pid_label.Text != "")
+                    {
+                        shop_list.Add(psu_pid_label.Text);
+                    }
+                    int count = 0;
+                    //string shop_list_input;
+                    StringBuilder shop_list_input = new StringBuilder();
+                    foreach (var shop_lists in shop_list) {
+                        count += 1;
+                        if (count == 1)
+                        {
+                            shop_list_input.Append(shop_lists.ToString());
+                        }
+                        else if ((count != 1) && (count != 0)){
+                            shop_list_input.Append("," + shop_lists.ToString());
+                        }
+                        
+                    }
+
+
+                    Command.Parameters.Add("@buy_menus", SqlDbType.NVarChar);
+                    Command.Parameters["@buy_menus"].Value = shop_list_input.ToString();
+                    Reader.Close();
+
+                    Command.ExecuteNonQuery();
+                    connection.Close();
+                }
+            }
         }
     }
 }

@@ -23,6 +23,9 @@
             img {
                 opacity: 0.5;
             }
+            .auto-style1 {
+                height: 53px;
+            }
         </style>
     </head>
    
@@ -114,14 +117,14 @@
                              <table border="1" style="font-size:18px;font-family:serif" >
                                     <tr>
                                         <th style="text-align:center;min-width:100px;font-weight:bold;color:black">品名</th>
-                                        <th style="text-align:center;min-width:500px;font-weight:bold;color:black">產品名稱</th>
+                                        <th style="text-align:center;min-width:1000px;font-weight:bold;color:black">產品名稱</th>
                                         <th style="text-align:center;min-width:100px;font-weight:bold;color:black">數量</th>
                                         <th style="text-align:center;min-width:100px;font-weight:bold;color:black">單價</th>
                                         <th style="text-align:center;min-width:100px;font-weight:bold;color:black">金額</th>
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">CPU</td>
-                                        <td><asp:DropDownList ID="cpu_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="500px" Font-Size="25px" AutoPostBack="True" DataSourceID="cpu_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="cpu_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="cpu_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="cpu_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="cpu_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
                                             <asp:SqlDataSource ID="cpu_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_CPU]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="cpu_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>
@@ -132,7 +135,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">主機板</td>
-                                        <td><asp:DropDownList ID="mdb_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="500px" Font-Size="25px" AutoPostBack="True" DataSourceID="mdb_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="mdb_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="mdb_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="mdb_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="mdb_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
                                             <asp:SqlDataSource ID="mdb_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_MDB]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="mdb_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>
@@ -143,7 +146,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">記憶體</td>
-                                        <td><asp:DropDownList ID="mem_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="500px" Font-Size="25px" AutoPostBack="True" DataSourceID="mem_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="mem_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="mem_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="mem_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="mem_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
                                             <asp:SqlDataSource ID="mem_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_Memory]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="mem_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>
@@ -154,7 +157,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">硬碟</td>
-                                        <td><asp:DropDownList ID="hdd_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="500px" Font-Size="25px" AutoPostBack="True" DataSourceID="hdd_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="hdd_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="hdd_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="hdd_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="hdd_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
                                             <asp:SqlDataSource ID="hdd_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_HDD]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="hdd_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>
@@ -165,7 +168,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">顯示卡</td>
-                                        <td><asp:DropDownList ID="vga_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="500px" Font-Size="25px" AutoPostBack="True" DataSourceID="vga_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="vga_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="vga_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="vga_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="vga_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
                                             <asp:SqlDataSource ID="vga_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_VGA]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="vga_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>
@@ -176,7 +179,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">機殼</td>
-                                        <td><asp:DropDownList ID="cas_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="500px" Font-Size="25px" AutoPostBack="True" DataSourceID="cas_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="cas_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="cas_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="cas_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="cas_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
                                             <asp:SqlDataSource ID="cas_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_Case]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="cas_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>
@@ -187,7 +190,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">電源供應器</td>
-                                        <td><asp:DropDownList ID="psu_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="500px" Font-Size="25px" AutoPostBack="True" DataSourceID="psu_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="psu_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="psu_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="psu_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="psu_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
                                             <asp:SqlDataSource ID="psu_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_Power_supplier]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="psu_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>
@@ -197,10 +200,10 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align:center;font-weight:bold;color:black">總金額 : </td>
-                                        <td><asp:Label ID="final_total_price_count" runat="server" Width="500px" Font-Size="30px" ForeColor="Black" style="text-align:center">0</asp:Label></td>
-                                        <td style="text-align:center;font-weight:bold;color:black">元</td>
-                                        <td><asp:Button ID="shopping_cart_check_buttom" runat="server" Text="加入購物籃" Font-Size="18px" class="btn-theme-sm btn-default-bg text-uppercase"/></td>
+                                        <td style="text-align:center;font-weight:bold;color:black" class="auto-style1">總金額 : </td>
+                                        <td class="auto-style1"><asp:Label ID="final_total_price_count" runat="server" Width="1000px" Font-Size="30px" ForeColor="Black" style="text-align:center">0</asp:Label></td>
+                                        <td style="text-align:center;font-weight:bold;color:black" class="auto-style1">元</td>
+                                        <td class="auto-style1"><asp:Button ID="shopping_cart_check_buttom" runat="server" Text="加入購物籃" Font-Size="18px" class="btn-theme-sm btn-default-bg text-uppercase" OnClick="shopping_cart_check_buttom_Click"/></td>
                                     </tr>
                                 </table>
                                 
