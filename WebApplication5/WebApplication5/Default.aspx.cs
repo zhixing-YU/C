@@ -273,6 +273,7 @@ namespace WebApplication5
                     SqlCommand command_load = new SqlCommand(sql_load, connection);
                     connection.Open();
 
+
                     SqlDataReader Reader = command_load.ExecuteReader();
                     if (Reader.HasRows)
                     {
@@ -323,6 +324,7 @@ namespace WebApplication5
                         }
                         
                     }
+
 
 
                     Command.Parameters.Add("@buy_menus", SqlDbType.NVarChar);
