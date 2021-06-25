@@ -74,7 +74,9 @@
                                <form id="form1" runat="server">  
                                     <div>
                                         <div>
-                                            <asp:Label ID="Label32" runat="server" Text="Label"></asp:Label>
+                                            <asp:Label ID="Label32" runat="server" Text="Label" Visible="False"></asp:Label>
+                                            <br />
+                                            <asp:Label ID="Label33" runat="server" Text="Label" Visible="False"></asp:Label>
                                             <br />
 
 

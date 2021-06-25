@@ -57,23 +57,23 @@ namespace WebApplication5
                 }
             }            
             connection.Close();
-            string b = "";
-
+            string str1 = "";
+            string str2 = "";
             //Label32.Text = shop_list_dic.Keys.ToString();
 
             foreach (var a in shop_list_dic.Keys)
             {
-                b = a.ToString() +  "\n";
+                str1 = a.ToString() +  "\n";
                 foreach (var c in shop_list_dic[a]) {
-                    b = b.ToString() + c.ToString();
-
+                    str1 = str1.ToString() + c.ToString();
+                    //if c.ToString;
 
                 }
                 //b = b.ToString() + "ya" + a.ToString();
 
 
             }
-            Label32.Text = b;
+            Label32.Text = str1;
 
         }
     }
