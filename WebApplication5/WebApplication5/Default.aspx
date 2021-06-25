@@ -54,11 +54,11 @@
 					
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right" runat="server">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="mbmber_data"><asp:Label ID="username" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">首頁</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">商品</a></li>
-								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered">登入/註冊</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="mbmber_data"><asp:Label class="nav-item-child nav-item-hover" ID="username" runat="server" Text="訪客"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body"><asp:Label class="nav-item-child nav-item-hover" ID="Label4" runat="server" Text="首頁"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about"><asp:Label class="nav-item-child nav-item-hover" ID="Label3" runat="server" Text="商品"></asp:Label></a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping"><asp:Label class="nav-item-child nav-item-hover" ID="Label2" runat="server" Text="購物籃"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered"><asp:Label class="nav-item-child nav-item-hover" ID="reg" runat="server" Text="註冊/登入"></asp:Label></a></li>
                             </ul>
                         </div>
 

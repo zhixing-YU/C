@@ -54,11 +54,11 @@
 					
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right" runat="server">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="mbmber_data"><asp:Label ID="username" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">首頁</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">商品</a></li>
-								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping">購物籃</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered">登入/註冊</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="mbmber_data"><asp:Label class="nav-item-child nav-item-hover" ID="username" runat="server" Text="訪客"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body"><asp:Label class="nav-item-child nav-item-hover" ID="Label4" runat="server" Text="首頁"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about"><asp:Label class="nav-item-child nav-item-hover" ID="Label3" runat="server" Text="商品"></asp:Label></a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping"><asp:Label class="nav-item-child nav-item-hover" ID="Label2" runat="server" Text="購物籃"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered"><asp:Label class="nav-item-child nav-item-hover" ID="reg" runat="server" Text="註冊/登入"></asp:Label></a></li>
                             </ul>
                         </div>
 
@@ -74,34 +74,11 @@
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 </ol>
             </div>
+             </div>
 
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h1 class="carousel-title">歡迎來到PC Shop購物平台</h1>
-                                <p class="color-white">Hello! </p>
-                            </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h2 class="carousel-title">歡迎來到PC Shop購物平台</h2>
-                                <p class="color-white">Hello! </p>
-                            </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="height-100" role="listbox" style="background-image:url(img/1920x1080/01.jpg)">
+
             </div>
-        </div>
         <!--========== SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
@@ -124,7 +101,9 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align:center;font-weight:bold;color:black">CPU</td>
-                                        <td><asp:DropDownList ID="cpu_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="cpu_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="cpu_product_name_DropDownList_SelectedIndexChanged"></asp:DropDownList>
+                                        <td><asp:DropDownList ID="cpu_product_name_DropDownList" runat="server" CssClass="dropdown-header" Height="40px" Width="1000px" Font-Size="25px" AutoPostBack="True" DataSourceID="cpu_sql_database_string" DataTextField="產品名稱" DataValueField="id" OnSelectedIndexChanged="cpu_product_name_DropDownList_SelectedIndexChanged">
+                                            <asp:ListItem></asp:ListItem>
+                                            </asp:DropDownList>
                                             <asp:SqlDataSource ID="cpu_sql_database_string" runat="server" ConnectionString="<%$ ConnectionStrings:Computer_productionConnectionString %>" SelectCommand="SELECT * FROM [products_CPU]"></asp:SqlDataSource>
                                         </td>
                                         <td><asp:DropDownList ID="cpu_item_count_DropDownList" runat="server" CssClass="dropdown-header" Height="41px" Width="100px" Font-Size="25px" style="text-align:center"><asp:ListItem>1</asp:ListItem></asp:DropDownList></td>

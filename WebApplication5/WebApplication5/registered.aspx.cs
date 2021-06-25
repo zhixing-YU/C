@@ -18,11 +18,15 @@ namespace WebApplication5
             if (Session["user"] == null)
             {
                 Label1.Text = "訪客";
+                reg.Text = "登入/註冊";
             }
             else
             {
                 user = Session["user"].ToString();
                 Label1.Text = user;
+                //reg.Text = "登出";
+                Session["user"] = null;
+                Response.Redirect("Default.aspx");
             }
         }
 

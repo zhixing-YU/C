@@ -20,11 +20,13 @@ namespace WebApplication5
             if (Session["user"] == null)
             {
                 username.Text = "訪客";
+                reg.Text = "登入/註冊";
             }
             else
             {
                 user = Session["user"].ToString();
                 username.Text = user;
+                reg.Text = "登出";
             }
 
         }

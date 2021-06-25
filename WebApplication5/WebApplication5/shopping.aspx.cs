@@ -18,11 +18,13 @@ namespace WebApplication5
             if (Session["user"] == null)
             {
                 Label1.Text = "訪客";
+                reg.Text = "登入/註冊";
             }
             else
             {
                 user = Session["user"].ToString();
                 Label1.Text = user;
+                reg.Text = "登出";
             }
             string s_data = System.Web.Configuration.WebConfigurationManager.ConnectionStrings["Computer_productionConnectionString"].ConnectionString;
             SqlConnection connection = new SqlConnection(s_data);

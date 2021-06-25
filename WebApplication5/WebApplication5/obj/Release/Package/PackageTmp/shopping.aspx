@@ -46,11 +46,11 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="mbmber_data"><asp:Label ID="Label1" runat="server" Text="訪客" ForeColor="#FFCC00"></asp:Label></a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#body" style="color: #000000">首頁</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default#about" style="color: #000000">商品</a></li>
-								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping" style="color: #FF0000">購物籃</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered" style="color: #000000">登入/註冊</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="mbmber_data"><asp:Label class="nav-item-child nav-item-hover" ID="Label1" runat="server" Text="訪客"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Default"><asp:Label class="nav-item-child nav-item-hover" ID="Label34" runat="server" Text="首頁"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about"><asp:Label class="nav-item-child nav-item-hover" ID="Label35" runat="server" Text="商品"></asp:Label></a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="shopping"><asp:Label class="nav-item-child nav-item-hover" ID="Label36" runat="server" Text="購物籃"></asp:Label></a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="registered"><asp:Label class="nav-item-child nav-item-hover" ID="reg" runat="server" Text="註冊/登入"></asp:Label></a></li>
                             </ul>
                         </div>
                         </div>
@@ -73,6 +73,14 @@
                             <div class="margin-b-40">
                                <form id="form1" runat="server">  
                                     <div>
+                                        <div>
+                                            <asp:Label ID="Label32" runat="server" Text="Label" Visible="False"></asp:Label>
+                                            <br />
+                                            <asp:Label ID="Label33" runat="server" Text="Label" Visible="False"></asp:Label>
+                                            <br />
+
+
+                                        </div>
 
                                 <table border="1" style="font-size:18px;font-family:serif" cellpadding="5">
                                     <tr>

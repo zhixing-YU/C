@@ -16,12 +16,14 @@ namespace WebApplication5
             {
                 string local = Session["local"].ToString();
                 Label1.Text = "訪客";
+                reg.Text = "登入/註冊";
                 Response.Redirect(local);
             }
             else
             {
                 user = Session["user"].ToString();
                 Label1.Text = user;
+                reg.Text = "登出";
             }
         }
         protected void Button1_Click(object sender, EventArgs e)
