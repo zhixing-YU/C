@@ -9,8 +9,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="" style="height: 476px">
-        </div>
     </form>
 </body>
 </html>

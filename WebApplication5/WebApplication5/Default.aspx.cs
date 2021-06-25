@@ -26,10 +26,13 @@ namespace WebApplication5
                 user = Session["user"].ToString();
                 username.Text = user;
             }
+
         }
 
         protected void cpu_product_name_DropDownList_SelectedIndexChanged(object sender, EventArgs e)
         {
+                        if (!IsPostBack) {
+            }
             string cpu_pid = "";
             //設定讀取的database sheeet 以及字串。
             string database_input = "cpu";
@@ -85,11 +88,11 @@ namespace WebApplication5
             //產生pid
             mdb_pid = "MDB" + mdb_product_name_DropDownList.SelectedValue.PadLeft(10, '0') + "N" + mdb_item_count_DropDownList.SelectedValue.PadLeft(2, '0');
 
-            mdb_totalPrice_label.Text = (int.Parse(mdb_price_label.Text) * int.Parse(mdb_item_count_DropDownList.SelectedValue)).ToString();
+            //mdb_totalPrice_label.Text = (int.Parse(mdb_price_label.Text) * int.Parse(mdb_item_count_DropDownList.SelectedValue)).ToString();
             connection.Close();
 
             mdb_pid_label.Text = mdb_pid;
-            final_total_price_count.Text = (int.Parse(cpu_totalPrice_label.Text) + int.Parse(mdb_totalPrice_label.Text) + int.Parse(mem_totalPrice_label.Text) + int.Parse(hdd_totalPrice_label.Text) + int.Parse(vga_totalPrice_label.Text) + int.Parse(cas_totalPrice_label.Text) + int.Parse(psu_totalPrice_label.Text)).ToString();
+            //final_total_price_count.Text = (int.Parse(cpu_totalPrice_label.Text) + int.Parse(mdb_totalPrice_label.Text) + int.Parse(mem_totalPrice_label.Text) + int.Parse(hdd_totalPrice_label.Text) + int.Parse(vga_totalPrice_label.Text) + int.Parse(cas_totalPrice_label.Text) + int.Parse(psu_totalPrice_label.Text)).ToString();
         }
 
         protected void mem_product_name_DropDownList_SelectedIndexChanged(object sender, EventArgs e)

@@ -73,6 +73,12 @@
                             <div class="margin-b-40">
                                <form id="form1" runat="server">  
                                     <div>
+                                        <div>
+                                            <asp:Label ID="Label32" runat="server" Text="Label"></asp:Label>
+                                            <br />
+
+
+                                        </div>
 
                                 <table border="1" style="font-size:18px;font-family:serif" cellpadding="5">
                                     <tr>
